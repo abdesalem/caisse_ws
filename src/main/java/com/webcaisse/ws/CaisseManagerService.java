@@ -8,12 +8,10 @@ import javax.jws.WebService;
 import com.webcaisse.ws.pojo.Famille;
 
 
-@WebService
-public class CaisseManagerServiceImpl {
+//@WebService
+public interface CaisseManagerService {
 
 	
-	@WebMethod
-	public List<Famille> getFamillesActivees() {
-		return null;
-	}
+	//@WebMethod
+	public List<Famille> getFamillesActivees ();
 }
