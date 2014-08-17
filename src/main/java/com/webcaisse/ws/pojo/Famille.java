@@ -9,6 +9,17 @@ public class Famille {
 	private String libelle ;
 	
 	private String reference ;
+	
+
+	public Famille() {
+		super();
+	}
+
+	public Famille(String libelle, String reference) {
+		super();
+		this.libelle = libelle;
+		this.reference = reference;
+	}
 
 	public String getLibelle() {
 		return libelle;
